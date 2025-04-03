@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-surface-800 dark:text-surface-100;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-xl font-medium transition-all duration-300 transform;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary-dark;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary text-white hover:bg-secondary-dark;
+  }
+  
+  .btn-accent {
+    @apply bg-accent text-white hover:brightness-110;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-white dark:border-primary-light dark:text-primary-light;
+  }
+  
+  .card {
+    @apply bg-white dark:bg-surface-800 rounded-2xl shadow-card overflow-hidden transition-all duration-300;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 rounded-xl bg-surface-100 dark:bg-surface-700 border-2 border-transparent focus:border-primary dark:focus:border-primary-light focus:outline-none transition-all duration-300;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+  
+  .bg-blur {
+    @apply backdrop-blur-md bg-white/70 dark:bg-surface-800/70;
+  }
+}
