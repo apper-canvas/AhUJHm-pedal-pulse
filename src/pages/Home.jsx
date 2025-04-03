@@ -148,7 +148,7 @@ const Home = () => {
                 <span className="text-white font-bold text-xl">P</span>
               </motion.div>
               <span className="text-2xl font-bold text-surface-900 dark:text-white">
-                Pedal<span className="text-primary">Pulse</span>
+                Pro<span className="text-primary">Bikes</span>
               </span>
             </a>
             
@@ -215,7 +215,7 @@ const Home = () => {
               transition={{ type: "spring", damping: 25, stiffness: 300 }}
             >
               <div className="flex items-center justify-between mb-8">
-                <span className="text-xl font-bold">PedalPulse</span>
+                <span className="text-xl font-bold">ProBikes</span>
                 <button onClick={() => setMobileMenuOpen(false)}>
                   <X className="w-6 h-6" />
                 </button>
@@ -300,7 +300,7 @@ const Home = () => {
             className="max-w-3xl"
           >
             <h1 className="text-white mb-4">
-              Ride the Future with <span className="text-gradient">PedalPulse</span>
+              Ride the Future with <span className="text-gradient">ProBikes</span>
             </h1>
             <p className="text-xl md:text-2xl text-surface-100 mb-8 max-w-2xl">
               Premium bikes and expert service for every rider. Discover your perfect ride today.
@@ -634,9 +634,9 @@ const Home = () => {
               transition={{ duration: 0.5 }}
               className="order-2 lg:order-1"
             >
-              <h2 className="mb-4">About <span className="text-gradient">PedalPulse</span></h2>
+              <h2 className="mb-4">About <span className="text-gradient">ProBikes</span></h2>
               <p className="text-lg text-surface-600 dark:text-surface-400 mb-6">
-                Founded in 2010, PedalPulse has grown from a small repair shop to a premium bike retailer with a passion for cycling and customer satisfaction.
+                Founded in 2010, ProBikes has grown from a small repair shop to a premium bike retailer with a passion for cycling and customer satisfaction.
               </p>
               
               <div className="space-y-6">
@@ -763,8 +763,8 @@ const Home = () => {
                 We'll respond within 24 hours<br />
                 during business days
               </p>
-              <a href="mailto:info@pedalpulse.com" className="text-primary font-medium">
-                info@pedalpulse.com
+              <a href="mailto:info@probikes.com" className="text-primary font-medium">
+                info@probikes.com
               </a>
             </motion.div>
             
@@ -961,7 +961,7 @@ const Home = () => {
                   <span className="text-white font-bold text-xl">P</span>
                 </div>
                 <span className="text-2xl font-bold text-white">
-                  Pedal<span className="text-primary">Pulse</span>
+                  Pro<span className="text-primary">Bikes</span>
                 </span>
               </div>
               
@@ -1052,7 +1052,7 @@ const Home = () => {
                 </li>
                 <li className="flex items-center">
                   <Mail className="w-5 h-5 mr-3 text-primary" />
-                  <span>info@pedalpulse.com</span>
+                  <span>info@probikes.com</span>
                 </li>
               </ul>
             </div>
@@ -1060,7 +1060,7 @@ const Home = () => {
           
           <div className="mt-12 pt-8 border-t border-surface-800 text-center">
             <p className="text-surface-500">
-              &copy; {new Date().getFullYear()} PedalPulse. All rights reserved.
+              &copy; {new Date().getFullYear()} ProBikes. All rights reserved.
             </p>
           </div>
         </div>
